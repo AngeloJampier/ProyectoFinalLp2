@@ -2,18 +2,26 @@
 
 .header{
     width: 100%;
-    height: calc(100vh - 200px);
-    background-image: url("../img/mabmabdance.gif");
-    background-repeat: round;
-    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 110px);
+}
+.header .video{
+    
+    width: 60%;
+    height: 100%;
+    padding: 2.5rem 0;
+}
+video{
+    width: 100%;
 }
 .banner-slogan-container{
     width: 40%;
-    height: calc(100vh - 200px);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,1);
     float: right;
 }
 .banner-slogan{
