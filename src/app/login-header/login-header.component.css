@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header-logo{
     display: flex;
     align-items: center;
+    height: 100%;
 }
-
+.header-logo img{
+    height: 100%;
+}
 .header-user-options{
     display: flex;
     margin-left: 5px;
